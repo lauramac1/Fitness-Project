@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="bmi.css" />
+    <script defer src="bmi.js"></script>
+  </head>
+  <body>
+    <div id="BMI-box">
+      <div id="calculation">
+        <h2>CALCULATE</h2>
+        <input type="text" name="bmi" id="weight" placeholder="Weight In KG" />
+        <input type="text" name="bmi" id="height" placeholder="Height In CM" />
+        <input type="submit" value="calculate" id="calculate" />
+        <div id="finalBMI">Your BMI Is :</div>
+      </div>
+      <div id="results">
+        <h2>Result Summary:</h2>
+        <ul>
+          <li>Under Weight = Less Then 18.5 BMI</li>
+          <li>Normal Weight = 18.5 To 24.9 BMI</li>
+          <li>Over Weight = 25 To 29.9 BMI</li>
+          <li>Obesity = 30 Or Greater BMI</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
