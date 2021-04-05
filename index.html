@@ -6,31 +6,30 @@
     <!-- This gives the browsers instructions how to control page dimensions and scaling-->
     <!-- Basically Width of the page is following screen-width of the device/browser-->
     <!-- ADD SEO for Extra points-->
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="nav.css" />
     <source src="script.js" type="" />
     <title>Fitness page</title>
   </head>
   <body>
-    <div class="container">
-      <nav>
-        <div class="logo">
-          <h4>Logo</h4>
-        </div>
-        <ul class="nav-links">
-          <li><a href="#" class="href">Home</a></li>
-          <li><a href="#" class="href">Home</a></li>
-          <li><a href="#" class="href">Home</a></li>
-          <li><a href="#" class="href">Home</a></li>
-          <li><a href="#" class="href">Home</a></li>
-        </ul>
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-      </nav>
-    </div>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Dublin Gym</label>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+    </nav>
 
     <br />
     <section id="slideshow">
@@ -39,42 +38,36 @@
         <p>Gym is blablabla</p>
       </div>
     </section>
-    <section id="Subscribtion">
-      <div class="container">
-        <h1>Suscribe for Weekly Content</h1>
-        <form>
-          <input type="email" placeholder="Please enter your email" />
-          <button type="submit" class="btnSuscribe">Suscribe</button>
-        </form>
-      </div>
-    </section>
 
     <section id="infoboxes">
-      <div class="container">
+      <div class="infoboxes">
         <div class="infobox">
-          <img src="box.png" alt="" class="src" />
-          <h3>FITNESS SOMETHING</h3>
+          <img src="dumbell.png" alt="" class="infoimg" />
+          <h3>Kettebells</h3>
           <p>
-            This is sample textThis is sample textThis is sample textThis is
-            sample textThis is sample text
+            With kettlebells you must control the movement path. This requires
+            you to double down on strengthening the stabilizer muscles for each
+            particular movement
           </p>
         </div>
         <div class="infobox">
-          <img src="box.png" alt="" class="src" />
+          <img src="dumbell2.png" alt="" class="infoimg" />
 
-          <h3>FITNESS SOMETHING</h3>
+          <h3>Dumbbells</h3>
           <p>
-            This is sample textThis is sample textThis is sample textThis is
-            sample textThis is sample text
+            Dumbbell exercises can create both inter- and intramuscular
+            coordination, leading to greater levels of muscle activation.
+            Dumbbells can benefit both the contractile element and elastic
+            component of muscle tissue.
           </p>
         </div>
         <div class="infobox">
-          <img src="box.png" alt="" class="src" />
+          <img src="hearth.png" alt="" class="infoimg" />
 
-          <h3>FITNESS SOMETHING</h3>
+          <h3>Health</h3>
           <p>
-            This is sample textThis is sample textThis is sample textThis is
-            sample textThis is sample text
+            Regular physical activity, combined with a healthy diet, can help
+            prevent and manage Type 2 Diabetes.
           </p>
         </div>
       </div>
